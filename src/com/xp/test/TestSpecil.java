@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class TestSpecil {
+public class TestSpecil {   
     public static  void main(String[] args){
         SqlSession sqlSession = MybatisUtils.getSqlSession(false);
         int pageNum=1;
